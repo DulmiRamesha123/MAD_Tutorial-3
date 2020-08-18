@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/custom_toast_layout"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#F14E23">
+
+    <ImageView
+        android:id="@+id/custom_toast_image"
+        android:layout_width="154dp"
+        android:layout_height="131dp"
+        android:contentDescription="Hello world"
+        android:paddingLeft="10sp"
+        android:paddingTop="10sp"
+        android:paddingEnd="10sp"
+        android:paddingRight="10sp"
+        android:paddingBottom="10sp"
+        android:src="@drawable/calculator" />
+
+    <TextView
+        android:id="@+id/custom_toast_message"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:contentDescription="To"
+        android:paddingTop="34sp"
+        android:paddingBottom="22sp"
+        android:text="Openning the Calculator"
+        android:textColor="#FFFFFF"
+        android:textSize="22sp" />
+
+</LinearLayout>
